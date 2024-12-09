@@ -4,10 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Touch of Chantel Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
+  <title>Touch Of Chantel</title>
+  <meta name="description" content="Chantel Chapoterera - Professional Hairdresser and Web Developer with expertise in beauty and technology.">
+  <meta name="keywords" content="Chantel Chapoterera, hairdresser, web developer, computer engineering, beauty, technology">
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link to Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -36,108 +41,7 @@
   ======================================================== -->
 </head>
 
-<main>
-  <section id="interactive-clock">
-    <h1>Interactive Clock</h1>
-    <!-- The clock will display here -->
-    <div id="clock">11:21:07</div>
-  </section>
-</main>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <title>Mathematical Formulas</title>
-</head>
-
-<section id="hero">
-  <h1>Welcome to My Portfolio</h1>
-  <p>Your journey into the world of creativity begins here.</p>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" class="wave-svg">
-    <path fill="#8EC5FC" d="M0,96L80,112C160,128,320,160,480,144C640,128,800,64,960,64L960,320L800,320C640,320,480,320,320,320C160,320,80,320,0,320Z"></path>
-  </svg>
-</section>
-
-<body>
-  <h1>Mathematical Formulas</h1>
-
-  <!-- Cauchy's Integral Formula -->
-  <h2>Cauchy's Integral Formula</h2>
-  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo>
-    <mo>=</mo>
-    <mfrac>
-      <mn>1</mn>
-      <mrow>
-        <mn>2</mn>
-        <mi>π</mi>
-        <mi>i</mi>
-      </mrow>
-    </mfrac>
-    <mo>∮</mo>
-    <mfrac>
-      <mrow>
-        <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
-      </mrow>
-      <mrow>
-        <mi>z</mi><mo>-</mo><mi>a</mi>
-      </mrow>
-    </mfrac>
-    <mi>d</mi><mi>z</mi>
-  </math>
-
-  <!-- Standard Deviation Formula -->
-  <h2>Standard Deviation</h2>
-  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    <mi>σ</mi>
-    <mo>=</mo>
-    <msqrt>
-      <mfrac>
-        <mn>1</mn>
-        <mi>N</mi>
-      </mfrac>
-      <mo>∑</mo>
-      <mrow>
-        <msub>
-          <mi>(x</mi>
-          <mi>i</mi>
-        </msub>
-        <mo>-</mo>
-        <mi>μ</mi>
-        <msup>
-          <mo>)</mo>
-          <mn>2</mn>
-        </msup>
-      </mrow>
-    </msqrt>
-  </math>
-
-  <!-- Divergence Theorem -->
-  <h2>Divergence Theorem</h2>
-  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-    <munderover>
-      <mo>∫</mo>
-      <mi>D</mi>
-    </munderover>
-    <mo>(</mo>
-    <mo>∇</mo><mo>⋅</mo><mi>F</mi><mo>)</mo><mi>d</mi><mi>V</mi>
-    <mo>=</mo>
-    <munderover>
-      <mo>∫</mo>
-      <mo>∂</mo><mi>D</mi>
-    </munderover>
-    <mi>F</mi><mo>⋅</mo><mi>n</mi><mi>d</mi><mi>S</mi>
-  </math>
-
-  <footer>
-    <p>Rendered using MathML and MathJax.</p>
-  </footer>
-</body>
-</html>
-
-
-<body class="index-page">
+<body class="resume-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -145,14 +49,14 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Chantel</h1>
+        <h1 class="sitename">Touch Of Chantel</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="resume.html" class="active">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -185,46 +89,86 @@
       </div>
 
     </div>
-
-    <body>
-      <!-- Your existing content -->
-      <button id="scrollToTopBtn" title="Go to top">↑</button>
-    </body>
-    
   </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
 
-      <img src="/assets/img/hero.png" alt="" data-aos="fade-in">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>A fusion of creativity, technical expertise, and passion for empowering people through beauty and technology.</p>
+      </div><!-- End Section Title -->
 
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <header>
-              <div class="header-container">
-                <img src="Chantelchaps/assets/img/Black Pink Bold Elegant Monogram Personal Brand Logo (3).PNG"  class="logo">
-                <nav>
-                  <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </header>
-            
-            <h2>Touch Of Chantel</h2>
-            <p>I'm a professional hairdresser from Zimbabwe</p>
-            <a href="about.html" class="btn-get-started">About Me</a>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Chantel Chapoterera</h4>
+              <p><em>Professional hairdresser and web developer with a degree in Computer Engineering. Expert in creating exceptional hairstyles and developing user-friendly websites to empower businesses and individuals alike.</em></p>
+              <ul>
+                <li>Vilnius, Lithuania</li>
+                <li>(+123) 456-7890</li>
+                <li>chantelchaps@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Engineering</h4>
+              <h5>2020 - 2024</h5>
+              <p><em>Vilnius Gediminas Technical University, Lithuania</em></p>
+              <p>Specialized in programming, web development, and IT systems while cultivating skills in creative problem-solving and innovation.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div><!-- Edn Resume Item -->
+
           </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
         </div>
+
       </div>
 
-    </section><!-- /Hero Section -->
+    </section><!-- /Resume Section -->
 
   </main>
 
@@ -234,13 +178,12 @@
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Chantel</strong> <span>All Rights Reserved<br></span></p>
       </div>
-      <div class="social-icons">
-        <a href="https://twitter.com"><img src="Chantelchaps/assets/img/images.png" alt="Twitter"></a>
-        <a href="https://linkedin.com"><img src="Chantelchaps/assets/img/174857.png" alt="LinkedIn"></a>
-        <a href="https://github.com"><img src="Chantelchaps/assets/img/25231.png" alt="GitHub"></a>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
-      <p>Created by Chantel Chaps | Contact: touchofc@gmail.com</p>
-    </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
@@ -250,12 +193,15 @@
       </div>
     </div>
 
-
   </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+  <div class="toggle-container">
+    <button id="mode-toggle" class="toggle-button">
+      <i class="bi bi-moon-fill"></i>
+    </button>
+  </div>
   <!-- Preloader -->
   <div id="preloader"></div>
 
@@ -271,7 +217,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/Users/chantelchaps/Desktop/myrepository/Chantelchaps/assets/js/main.js"></script>
 
 </body>
 
